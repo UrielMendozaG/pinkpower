@@ -3,11 +3,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>pinkpower</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.min.css" integrity="sha256-3IkGqGYOvq1Ype2MXFwVJFeBtBACgiveho3SacOEEP8=" crossorigin="anonymous" />
 </head>
 <body>
-    <img src="./resources/accion.png" alt="">
-    <img src="./resources/union.png" alt="">
-    <img src="./resources/educacion.png" alt="">
+    <div class="fullPage">
+        <div class="section s1">
+            <div class="img">
+                <img src="./resources/union.png" alt="union">
+            </div>
+            <div class="text">
+                <h1>UNION</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis perferendis optio velit culpa sed hic nesciunt enim? At, porro molestias! Fugiat incidunt, adipisci nostrum ipsa alias unde eos reiciendis dolores! Aute fugiat officia minim nulla deserunt commodo consectetur ullamco. Occaecat aliquip enim ut aliqua enim eiusmod sint. Adipisicing occaecat reprehenderit sint culpa nostrud deserunt commodo consectetur cupidatat ullamco. Mollit esse aliquip officia Lorem voluptate ipsum Lorem eiusmod veniam ipsum. Laborum cupidatat esse fugiat ullamco sint reprehenderit minim deserunt nostrud Lorem enim.</p>
+            </div>
+        </div>
+
+        <div class="section s2">
+            <div class="img">
+                <img src="./resources/educacion.png" alt="educacion">
+            </div>
+            <div class="text">
+                <h1>EDUCACION</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis perferendis optio velit culpa sed hic nesciunt enim? At, porro molestias! Fugiat incidunt, adipisci nostrum ipsa alias unde eos reiciendis dolores! Aute fugiat officia minim nulla deserunt commodo consectetur ullamco. Occaecat aliquip enim ut aliqua enim eiusmod sint. Adipisicing occaecat reprehenderit sint culpa nostrud deserunt commodo consectetur cupidatat ullamco. Mollit esse aliquip officia Lorem voluptate ipsum Lorem eiusmod veniam ipsum. Laborum cupidatat esse fugiat ullamco sint reprehenderit minim deserunt nostrud Lorem enim.</p>
+            </div>
+        </div>
+        
+        <div class="section s3">
+            <div class="img">
+                <img src="./resources/accion.png" alt="">
+            </div>
+            <div class="text">
+                <h1>ACCION</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi odit iusto expedita reprehenderit, architecto aliquam repudiandae corporis quod et quisquam, itaque sunt accusantium laboriosam at exercitationem excepturi perferendis cumque inventore!</p>
+                <a href="#">ACCION</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.min.js" integrity="sha256-e13jRNqOX98m6UAwI/yZTpcDseJtA8s86yfFs4Sqrv8=" crossorigin="anonymous"></script>
+    <script>
+        new fullPage('#fullPage', {
+            autoScrolling: true
+        })
+    </script>
 </body>
 </html>
