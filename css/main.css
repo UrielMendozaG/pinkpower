@@ -1,69 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto',sans-serif;
+.card-body {
+    padding: 3.5em;
 }
 
-.section {
-    display: flex;
-    
-}
+@media only screen and (min-width: 1250px) {
+    .card-body{
+        padding: 7em;
+    }
+    .union {
+        height: 570px;
+    }
 
-img {
-    background: #F2E1E1;
-    width: 70%;  
-    margin-top: 15%;
-}
-
-.img {
-    text-align: center;
-    width: 50%;  
-    background: #F2E1E1;
-    order: 2;
-}
-
-.text {
-    width: 50%;  
-    background: white;
-    order: 1;
-}
-
-.text, .img {
-    padding: 7em;
-}
-
-.text h1 {
-    margin-top: 1em;
-    margin-bottom: .3em;
-    font-size: 3em;
-}
-
-.text p {
-    margin-top: 0;;
-    font-size: 1.3em;
-}
-
-a {
-    text-decoration: none;
-    text-align: center;
-}
-
-p{
-    width: 80%;
-}
-
-.cta {
-    background: black;
-    width: calc(100%-1em);
-    display: block;
-    color: #fFF;
-    border-radius: 20px;
-    padding: .5em;
-    text-decoration: none;
-    font-size: 1.5em;
-    margin: 2em auto;
-    position: relative;
-    z-index: 4;
+    h4{
+      margin-top: 12.5%;  
+    }
+    /* p{
+        margin-bottom: 25%;
+    } */
 }
