@@ -1,5 +1,5 @@
 # pinkpower
-Basic site created with html + css
+Basic site created with Bootstrap 4. 
 ## Screenshots
 ![](resources/ss.png)
 
