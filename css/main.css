@@ -1,0 +1,19 @@
+.card-body {
+    padding: 3.5em;
+}
+
+@media only screen and (min-width: 1250px) {
+    .card-body{
+        padding: 7em;
+    }
+    .union {
+        height: 570px;
+    }
+
+    h4{
+      margin-top: 12.5%;  
+    }
+    /* p{
+        margin-bottom: 25%;
+    } */
+}
