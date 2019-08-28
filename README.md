@@ -5,7 +5,7 @@ Basic site created with Bootstrap 4.
 ![](resources/ss.png)
 
 ## DEMO
-https://vumg.github.io/pinkpower/
+https://urielmendozag.github.io/pinkpower/
 
 ## Images from Absurd Design
 Images downloaded from the Absurd.design - https://absurd.design/
